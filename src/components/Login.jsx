@@ -29,9 +29,6 @@ function Login({
         setUser(name);
     }
 
-    // const gotoMyPortfolio = () => {
-    //     window.open("https://github.com/MaitisamY/", "_blank");
-    // }
 
     return (
         <>
@@ -52,7 +49,7 @@ function Login({
                             name="name" 
                             value={user} 
                             onChange={handleUsenameChange}
-                            placeholder="E.g. John Doe"
+                            placeholder="E.g. OSHIM PATHAN"
                         />
                         {userNameError && <span id="name-error">{userNameError}</span>}
                         <button 
@@ -105,7 +102,7 @@ function Login({
                 )}
             </div>
             <div id="login-footer">
-                <p>© {new Date().getFullYear()}, Flashcard Quiz.</p>
+                <p>© {new Date().getFullYear()}, Flashcard Quiz Demo by OSHIM_PATHAN.</p>
                 {/* <span>Made with ❤️ by 
                     <a target="_blank" rel="noopener noreferrer" onClick={gotoMyPortfolio}> Aitisam Yaseen</a>
                 </span> */}
